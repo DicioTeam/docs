@@ -1,6 +1,5 @@
 [book]
-authors = ["Stypox"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Dicio docs"
+title = "Dicio developer documentation"

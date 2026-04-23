@@ -1,3 +1,7 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+[Home](./home.md)
+
+- [Translating](./translating.md)
+- [Adding a skill](./adding_skill.md)
+- [Making a release](./release.md)
