@@ -134,7 +134,7 @@ Create an `object` named `$SkillId$Info` (e.g. `WeatherInfo`) overriding `SkillI
 Under `org.stypox.dicio.Skills.SkillHandler`, update the `allSkillInfoList` by adding `$SkillId$Info`; this will make the new skill finally visible to Dicio.
 
 ### 7. Add skill to README and descriptions
-Add your skill with a short description and an example in the README under [Skills](https://github.com/Stypox/dicio-android#skills) and in the [fastlane's long description](https://github.com/Stypox/dicio-android/tree/master/fastlane/metadata/android/en-US/full_description.txt).
+Add your skill with a short description and an example in the README under [Skills](https://github.com/Stypox/dicio-android#skills) and in the [fastlane's long description](https://github.com/Stypox/dicio-android/tree/main/fastlane/metadata/android/en-US/full_description.txt).
 
 ### **Notes**
 - The `ctx: SkillContext` object, that appears here and there in the implementation, allows accessing the Android context, the number parser/formatter and other **resources** and services, similarly to Android's `context`.
