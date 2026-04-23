@@ -3,3 +3,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Dicio developer documentation"
+
+[output.html]
+git-repository-url = "https://github.com/DicioTeam/docs"
+git-repository-icon = "fas-code-fork"
+edit-url-template = "https://github.com/DicioTeam/docs/edit/main/{path}"
