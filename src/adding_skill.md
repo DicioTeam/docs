@@ -131,7 +131,7 @@ Create an `object` named `$SkillId$Info` (e.g. `WeatherInfo`) overriding `SkillI
 4. _\[Optional\]_ If your skill wants to present some preferences to the user, it has to do so by overriding the `renderSettings` value (which by default returns `null` to indicate there are no preferences).
 
 ### 6. List skill inside SkillHandler
-Under `org.stypox.dicio.Skills.SkillHandler`, update the `allSkillInfoList` by adding `$SkillId$Info`; this will make the new skill finally visible to Dicio.
+Under `org.stypox.dicio.eval.SkillHandler`, update the `allSkillInfoList` by adding `$SkillId$Info`; this will make the new skill finally visible to Dicio.
 
 ### 7. Add skill to README and descriptions
 Add your skill with a short description and an example in the README under [Skills](https://github.com/Stypox/dicio-android#skills) and in the [fastlane's long description](https://github.com/Stypox/dicio-android/tree/main/fastlane/metadata/android/en-US/full_description.txt).
